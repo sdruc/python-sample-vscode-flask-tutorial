@@ -24,7 +24,7 @@ stages:
       displayName: Build an image
       inputs:
         containerRegistry: 'foxcr'
-        repository: 'foxcr.azurecr.io/fnol'
+        repository: 'flask'
         command: 'buildAndPush'
         Dockerfile: 'Dockerfile'
         tags: '$(tag)'
